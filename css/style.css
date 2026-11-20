@@ -158,6 +158,10 @@ header {
     height: 56px;
 }
 
+.menu summary .fa-bars {
+    font-size: 52px;
+}
+
 .menu nav {
     position: absolute;
     top: calc(100% + 10px);
@@ -503,6 +507,10 @@ summary:focus-visible,
     display: none;
     width: 100%;
     min-height: 0;
+}
+
+.category-carousel-track .category-slide {
+    display: none;
 }
 
 #category-slide-state-1:checked ~ .category-carousel-track .category-slide-1,
